@@ -1,2 +1,3 @@
-# GitSpace
-Visualize your GitHub Profile 
+# Git Space
+
+Visualize your GitHub Profile

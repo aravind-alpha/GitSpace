@@ -1,8 +1,19 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import React from "react";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 const Error = () => {
-  return <h2>error page</h2>;
+  return (
+    <Wrapper>
+      <div>
+        <h2>404</h2>
+        <h3>Oops! It's dead end.</h3>
+        <Link to="/" className="btn">
+          Back to Home
+        </Link>
+      </div>
+    </Wrapper>
+  );
 };
 const Wrapper = styled.section`
   min-height: 100vh;
