@@ -1,2 +1,2 @@
-# gitsearch
+# GitSpace
 Visualize your GitHub Profile 
