@@ -24,7 +24,7 @@ Variables
   --clr-primary-7: hsl(204, 65%, 59%);
   --clr-primary-8: hsl(204, 80%, 74%);
   --clr-primary-9: hsl(209, 94%, 87%);
-  --clr-primary-10: hsl(209, 100%, 94%);
+  --clr-primary-10: hsl(216, 100%, 97%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
@@ -68,7 +68,7 @@ Global Styles
 }
 
 .light-mode {
-  background-color: #ffffff;
+  background-color: var(--clr-primary-10);
   color: #1c2024;
 }
 
@@ -79,6 +79,7 @@ Global Styles
 
 body {
   font-family: var(--ff-secondary);
+  background-color: var(--clr-primary-10);
   line-height: 1.5;
   font-size: 0.875rem;
 }

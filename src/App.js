@@ -9,9 +9,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact={true}>
-          <div className={darkMode ? "dark-mode" : "light-mode"}>
-            <Dashboard></Dashboard>
-          </div>
+          <Dashboard></Dashboard>
         </Route>
         <Route path="/login" exact={true}>
           <Login />
@@ -25,3 +23,15 @@ function App() {
 }
 
 export default App;
+
+// <div className={darkMode ? "dark-mode" : "light-mode"}>
+// <div className="toggle-container">
+//   <button
+//     onClick={() => {
+//       setDarkMode((prevMode) => !prevMode);
+//     }}
+//   >
+//     Toggle Mode
+//   </button>
+// </div>
+// </div>
