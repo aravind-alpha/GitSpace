@@ -191,3 +191,6 @@ p {
 main {
   padding-bottom: 2rem;
 }
+svg > g[class^="raphael-group-"] > text {
+  display: none;
+}
