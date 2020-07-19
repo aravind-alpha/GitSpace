@@ -2,18 +2,28 @@ import React from "react";
 import styled from "styled-components";
 import { MdSearch } from "react-icons/md";
 import { GithubContext } from "../context/context";
+
 const Search = () => {
   const [user, setUser] = React.useState("");
+  const { requests, error, searchGithubUser, isLoading } = React.useContext(
+    GithubContext
+  );
   // Get info from Global context
   const handleSubmit = (event) => {
     event.preventDefault();
     if (user) {
-      setUser("");
+      // setUser("");
+      searchGithubUser(user);
     }
   };
   return (
     <section className="section">
       <Wrapper className="section-center">
+        {error.show && (
+          <ErrorWrapper>
+            <p>{error.msg}</p>
+          </ErrorWrapper>
+        )}
         <form onSubmit={handleSubmit}>
           <div className="form-control">
             <MdSearch />
@@ -23,10 +33,12 @@ const Search = () => {
               value={user}
               onChange={(event) => setUser(event.target.value)}
             />
-            <button type="submit">Submit</button>
+            {requests > 0 && !isLoading && (
+              <button type="submit">Submit</button>
+            )}
           </div>
         </form>
-        <h4>requests: 60 / 60</h4>
+        <h4>requests: {requests} / 60</h4>
       </Wrapper>
     </section>
   );
@@ -107,8 +119,8 @@ const ErrorWrapper = styled.article`
   top: 0;
   left: 0;
   transform: translateY(-100%);
-  text-transform: capitalize;
   p {
+    font-size: 1rem;
     color: red;
     letter-spacing: var(--spacing);
   }
