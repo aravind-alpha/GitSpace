@@ -2,7 +2,7 @@
 
 `Visualize your GitHub Profile`
 
-A Web application to 🔎 visualize GitHub profiles📊 with simple Authentication 🔐 using `react-auth0`
+A Web application to 🔎 visualize GitHub profiles 📊 with simple Authentication 🔐 using `react-auth0`
 
 ## 🧪🗃 Tech Stack
 
@@ -28,7 +28,7 @@ A Web application to 🔎 visualize GitHub profiles📊 with simple Authenticati
 
 ## 👨‍🍳 Author
 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/aravind-alpha)
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/aravind-alpha)
 
 ## 📜 Licence
 
