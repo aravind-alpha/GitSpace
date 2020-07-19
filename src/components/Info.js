@@ -88,6 +88,7 @@ const Wrapper = styled.section`
       font-size: 1.5rem;
     }
     h3 {
+      font-size: 1.3rem;
       margin-bottom: 0;
       letter-spacing: 0;
     }
