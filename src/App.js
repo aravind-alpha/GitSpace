@@ -3,8 +3,6 @@ import { Dashboard, Login, PrivateRoute, AuthWrapper, Error } from "./pages";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-  const [darkMode, setDarkMode] = React.useState(true);
-
   return (
     <Router>
       <Switch>
@@ -24,6 +22,7 @@ function App() {
 
 export default App;
 
+// const [darkMode, setDarkMode] = React.useState(true);
 // <div className={darkMode ? "dark-mode" : "light-mode"}>
 // <div className="toggle-container">
 //   <button
