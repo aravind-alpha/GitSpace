@@ -26,9 +26,9 @@ A Web application to 🔎 visualize GitHub profiles📊 with simple Authenticati
 - [node](https://nodejs.org/en/) >= v12.16.1
 - npm >= 6.13.4
 
-## 👨‍🍳 Cooked by Me
+## 👨‍🍳 Author
 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/aravind-alpha))]
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/aravind-alpha)
 
 ## 📜 Licence
 
