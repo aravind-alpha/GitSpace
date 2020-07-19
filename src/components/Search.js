@@ -125,4 +125,5 @@ const ErrorWrapper = styled.article`
     letter-spacing: var(--spacing);
   }
 `;
+
 export default Search;

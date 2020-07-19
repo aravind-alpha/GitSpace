@@ -15,6 +15,7 @@ const Error = () => {
     </Wrapper>
   );
 };
+
 const Wrapper = styled.section`
   min-height: 100vh;
   display: grid;
@@ -29,4 +30,5 @@ const Wrapper = styled.section`
     margin-bottom: 1.5rem;
   }
 `;
+
 export default Error;

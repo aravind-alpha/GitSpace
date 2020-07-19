@@ -17,6 +17,7 @@ const Login = () => {
     </Wrapper>
   );
 };
+
 const Wrapper = styled.section`
   min-height: 100vh;
   display: grid;
@@ -37,4 +38,5 @@ const Wrapper = styled.section`
     margin-bottom: 1rem;
   }
 `;
+
 export default Login;
