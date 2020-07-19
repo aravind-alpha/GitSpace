@@ -20,7 +20,7 @@ const Card = () => {
         <img src={avatar_url} alt={name} />
         <div>
           <h4>{name}</h4>
-          <p>@{twitter_username || "john doe"}</p>
+          <p>@{twitter_username || "unknown"}</p>
         </div>
         <a href={html_url}>follow</a>
       </header>
@@ -34,7 +34,7 @@ const Card = () => {
         </p>
         <a href={`https://${blog}`}>
           <MdLink />
-          {blog || "www.gitspace.netlify.com"}
+          {blog || "N/A"}
         </a>
       </div>
     </Wrapper>
