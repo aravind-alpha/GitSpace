@@ -2,5 +2,5 @@ node_modules
 .env
 src/images
 src/context
-src/index.css
 public/favicon.ico
+package-lock.json
