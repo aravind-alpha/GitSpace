@@ -5,6 +5,7 @@ import { Pie3D, Column2D, Bar2D, Doughnut2D } from "./Charts";
 
 const Repos = () => {
   const { repos } = React.useContext(GithubContext);
+
   let languages = repos.reduce((total, item) => {
     const { language, stargazers_count } = item;
     if (!language) return total;

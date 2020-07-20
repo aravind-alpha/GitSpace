@@ -67,16 +67,6 @@ Global Styles
   box-sizing: border-box;
 }
 
-.light-mode {
-  background-color: var(--clr-primary-10);
-  color: #1c2024;
-}
-
-.dark-mode {
-  background-color: #1c2024;
-  color: var(--clr-grey-10);
-}
-
 body {
   font-family: var(--ff-secondary);
   background-color: var(--clr-primary-10);

@@ -16,6 +16,7 @@ A Web application to 🔎 visualize GitHub profiles 📊 with simple Authenticat
 - [React FusionCharts](https://www.npmjs.com/package/react-fusioncharts)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Auth0](https://www.npmjs.com/package/auth0-react)
+- [react-github-calendar](https://www.npmjs.com/package/react-github-calendar)
 
 ### 🧲 API used
 
