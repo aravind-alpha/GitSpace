@@ -4,6 +4,8 @@
 
 A Web application to 🔎 visualize GitHub profiles 📊 with simple Authentication 🔐 using `react-auth0`
 
+![gitspace](https://github.com/aravind-alpha/GitSpace/blob/master/src/gitspace-1.png)
+
 ## 🧪🗃 Tech Stack
 
 ![react](https://img.shields.io/badge/frontend-react-61dafb?style=flat&logo=React)
