@@ -28,12 +28,8 @@ const Wrapper = styled.section`
     text-align: center;
   }
   img {
-    height: 350px;
-    width: 360px;
-    @media (min-width: 992px) {
-      height: 540px;
-      width: 600px;
-    }
+    height: contain;
+    width: contain;
   }
 
   h3 {
