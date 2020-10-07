@@ -9,3 +9,4 @@ src/components/Calendar.js
 src/components/Footer.js
 public/favicon.ico
 package-lock.json
+.gitignore
