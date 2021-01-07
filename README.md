@@ -1,4 +1,4 @@
-# Git Space
+## Git Space
 
 `Visualize your GitHub Profile`
 
@@ -6,33 +6,24 @@ A Web application to 🔎 visualize GitHub profiles 📊 with simple Authenticat
 
 ![gitspace](https://github.com/aravind-alpha/GitSpace/blob/master/src/gitspace-1.png)
 
-## 🧪🗃 Tech Stack
+### 🗃 &nbsp; Tech Stack
 
-![react](https://img.shields.io/badge/frontend-react-61dafb?style=flat&logo=React)
-![styled-components](https://img.shields.io/badge/styling-styled--components-%23DB7093?style=flat&logo=styled-components)
-![react-fusioncharts](https://img.shields.io/badge/react-fusioncharts-yellow?style=flat&logo=Deezer)
-![icons](https://img.shields.io/badge/icons-react--icons-red?style=flat&logo=React)
+[![MIT](https://img.shields.io/badge/License-MIT-628AFF?style=flat&logo=license)](https://github.com/aravind-alpha/GitSpace/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm)
+[![react](https://img.shields.io/badge/frontend-react-61dafb?style=flat&logo=React)](https://reactjs.org/)
+[![styled-components](https://img.shields.io/badge/styling-styled--components-%23DB7093?style=flat&logo=styled-components)](https://styled-components.com/)
+[![react-fusioncharts](https://img.shields.io/badge/react-fusioncharts-7CFF33?style=flat&logo=react)](https://www.npmjs.com/package/react-fusioncharts)
+[![icons](https://img.shields.io/badge/icons-react--icons-5BFFCB?style=flat&logo=React)](https://react-icons.github.io/react-icons/)
 
-- [React](https://reactjs.org/)
-- [styled-components](https://styled-components.com/)
-- [React FusionCharts](https://www.npmjs.com/package/react-fusioncharts)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [React Auth0](https://www.npmjs.com/package/auth0-react)
-- [react-github-calendar](https://www.npmjs.com/package/react-github-calendar)
-
-### 🧲 API used
+### 🧲 &nbsp; API used
 
 - For fetching github's user data : [Github API](https://developer.github.com/v3/)
 
-## 🛠 Prerequisites
+### 🛠 &nbsp; Prerequisites
 
-- [node](https://nodejs.org/en/) >= v12.16.1
+- node >= v12.16.1
 - npm >= 6.13.4
 
-## 👨‍🍳 Author
+### 💼 &nbsp; LinkedIn
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/aravind-alpha)
-
-## 📜 Licence
-
-[MIT License](https://github.com/aravind-alpha/GitSpace/blob/master/LICENSE) Aravind
