@@ -27,3 +27,5 @@ A Web application to 🔎 visualize GitHub profiles 📊 with simple Authenticat
 ### 💼 &nbsp; LinkedIn
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/aravind-alpha)
+
+If you like this project, show some love by giving it a ★ 😊
